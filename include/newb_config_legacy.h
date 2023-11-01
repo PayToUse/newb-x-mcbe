@@ -38,12 +38,12 @@
 //#define NL_TINT vec3(1.0,0.75,0.5) // [toggle] color overlay
 
 /* Terrain lighting */
-#define NL_SUN_INTENSITY 2.95   // 0.5 weak ~ 5.0 bright
-#define NL_TORCH_INTENSITY 1.0  // 0.5 weak ~ 3.0 bright
-#define NL_NIGHT_BRIGHTNESS 0.1 // 0.0 dark ~ 2.0 bright
-#define NL_CAVE_BRIGHTNESS  0.1 // 0.0 dark ~ 2.0 bright
-#define NL_SHADOW_INTENSITY 0.7 // 0.0 no shadow ~ 1.0 strong shadow
-//#define NL_BLINKING_TORCH     // [toggle] flickering light
+#define NL_SUN_INTENSITY 3.0     // 0.5 weak ~ 5.0 bright
+#define NL_TORCH_INTENSITY 1.5   // 0.5 weak ~ 3.0 bright
+#define NL_NIGHT_BRIGHTNESS 0.2  // 0.0 dark ~ 2.0 bright
+#define NL_CAVE_BRIGHTNESS  0.35 // 0.0 dark ~ 2.0 bright
+#define NL_SHADOW_INTENSITY 0.5  // 0.0 no shadow ~ 1.0 strong shadow
+//#define NL_BLINKING_TORCH      // [toggle] flickering light
 
 /* Sun/moon light color on terrain */
 #define NL_MORNING_SUN_COL vec3(1.0,0.45,0.14)
@@ -65,13 +65,13 @@
 #define NL_BASE_SKY_COL     vec3(0.15,0.45,1.0)
 #define NL_BASE_HORIZON_COL vec3(1.00,0.40,0.3)
 #define NL_EDGE_HORIZON_COL vec3(1.00,0.40,0.2)
-#define NL_DAY_SKY_CLARITY 1.0 // 0.0 fogy sky ~ 1.0 clear sky
+#define NL_DAY_SKY_CLARITY 1.0 // 0.0 foggy sky ~ 1.0 clear sky
 
 /* End sky colors */
 #define NL_END_SKY_COL vec3(0.28,0.031,0.33)
 
 /* Ore glow intensity */
-#define NL_GLOW_TEX 2.2 // 0.4 weak ~ 8.0 bright
+#define NL_GLOW_TEX 2.0 // 0.4 weak ~ 8.0 bright
 
 /* Waving */
 #define NL_PLANTS_WAVE 0.3   // [toggle] 0.02 gentle ~ 0.4 violent
@@ -80,14 +80,14 @@
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.5 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.15        // 0.001 plain ~ 0.2 bumpy water
-#define NL_WATER_TEX_OPACITY 0    // 0.0 plain water ~ 1.0 vanilla water texture
+#define NL_WATER_BUMP 0.1         // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_TEX_OPACITY 0.0  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
-#define NL_UNDERWATER_BRIGHTNESS 1.2 // 0.0 dark ~ 3.0 bright
+#define NL_UNDERWATER_BRIGHTNESS 1.5 // 0.0 dark ~ 3.0 bright
 #define NL_CAUSTIC_INTENSITY 1.9     // 0.5 weak ~ 5.0 bright
 #define NL_UNDERWATER_WAVE 0.02       // [toggle] 0.02 subtle ~ 0.6 trippy
 #define NL_UNDERWATER_TINT vec3(0.9,1.0,0.9)
@@ -104,7 +104,7 @@
 #define NL_CLOUD1_DEPTH 1.3                // 0.0 no bump ~ 10.0 large bumps
 #define NL_CLOUD1_SPEED 0.2                // 0.0 static ~ 0.4 fast moving
 #define NL_CLOUD1_DENSITY 0.54             // 0.1 less clouds ~ 0.8 more clouds
-#define NL_CLOUD1_OPACITY 1                // 0.0 invisible ~ 1.0 opaque
+#define NL_CLOUD1_OPACITY 1.0              // 0.0 invisible ~ 1.0 opaque
 
 /* Rounded cloud Settings */
 #define NL_CLOUD2_THICKNESS 2.1      // 0.5 slim ~ 5.0 fat
