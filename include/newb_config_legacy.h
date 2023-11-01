@@ -65,7 +65,7 @@
 #define NL_BASE_SKY_COL     vec3(0.15,0.45,1.0)
 #define NL_BASE_HORIZON_COL vec3(1.00,0.40,0.3)
 #define NL_EDGE_HORIZON_COL vec3(1.00,0.40,0.2)
-#define NL_DAY_SKY_CLARITY 0.3 // 0.0 fogy sky ~ 1.0 clear sky
+#define NL_DAY_SKY_CLARITY 1.0 // 0.0 fogy sky ~ 1.0 clear sky
 
 /* End sky colors */
 #define NL_END_SKY_COL vec3(0.28,0.031,0.33)
@@ -80,8 +80,8 @@
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.5 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.07        // 0.001 plain ~ 0.2 bumpy water
-#define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
+#define NL_WATER_BUMP 0.15        // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_TEX_OPACITY 0    // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
@@ -104,7 +104,7 @@
 #define NL_CLOUD1_DEPTH 1.3                // 0.0 no bump ~ 10.0 large bumps
 #define NL_CLOUD1_SPEED 0.2                // 0.0 static ~ 0.4 fast moving
 #define NL_CLOUD1_DENSITY 0.54             // 0.1 less clouds ~ 0.8 more clouds
-#define NL_CLOUD1_OPACITY 0.9              // 0.0 invisible ~ 1.0 opaque
+#define NL_CLOUD1_OPACITY 1                // 0.0 invisible ~ 1.0 opaque
 
 /* Rounded cloud Settings */
 #define NL_CLOUD2_THICKNESS 2.1      // 0.5 slim ~ 5.0 fat
@@ -117,15 +117,15 @@
 //#define NL_CLOUD2_MULTILAYER       // [toggle] extra cloud layer
 
 /*️ Aurora settings */
-#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
-#define NL_AURORA_VELOCITY 0.03 // 0.0 static ~ 0.3 very fast
+#define NL_AURORA 2.0           // [toggle] 0.4 dim ~ 4.0 very bright
+#define NL_AURORA_VELOCITY 0.1  // 0.0 static ~ 0.3 very fast
 #define NL_AURORA_SCALE 0.04    // 0.002 large ~ 0.4 tiny
-#define NL_AURORA_WIDTH 0.18    // 0.04 thin line ~ 0.4 thick lines
+#define NL_AURORA_WIDTH 0.2     // 0.04 thin line ~ 0.4 thick lines
 #define NL_AURORA_COL1 vec3(0.1,1.0,0.0)
 #define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
 
 /* Rainy wind blow transparency */
-#define NL_RAIN_MIST_OPACITY 0.12 // [toggle] 0.04 very subtle ~ 0.5 thick
+#define NL_RAIN_MIST_OPACITY 0.2 // [toggle] 0.04 very subtle ~ 0.5 thick
 
 /* Chunk loading slide in animation */
 //#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
