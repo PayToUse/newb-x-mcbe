@@ -74,9 +74,9 @@
 #define NL_GLOW_TEX 2.2 // 0.4 weak ~ 8.0 bright
 
 /* Waving */
-#define NL_PLANTS_WAVE 0.04  // [toggle] 0.02 gentle ~ 0.4 violent
-#define NL_LANTERN_WAVE 0.16 // [toggle] 0.05 subtle ~ 0.4 large swing
-#define NL_WAVE_SPEED 2.8    // 0.5 slow wave ~ 5.0 very fast wave
+#define NL_PLANTS_WAVE 0.2  // [toggle] 0.02 gentle ~ 0.4 violent
+#define NL_LANTERN_WAVE 0.2 // [toggle] 0.05 subtle ~ 0.4 large swing
+#define NL_WAVE_SPEED 4.0    // 0.5 slow wave ~ 5.0 very fast wave
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.9 // 0.0 transparent ~ 1.0 normal
@@ -87,9 +87,9 @@
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
-#define NL_UNDERWATER_BRIGHTNESS 0.8 // 0.0 dark ~ 3.0 bright
+#define NL_UNDERWATER_BRIGHTNESS 1.2 // 0.0 dark ~ 3.0 bright
 #define NL_CAUSTIC_INTENSITY 1.9     // 0.5 weak ~ 5.0 bright
-#define NL_UNDERWATER_WAVE 0.1       // [toggle] 0.02 subtle ~ 0.6 trippy
+#define NL_UNDERWATER_WAVE 0.02       // [toggle] 0.02 subtle ~ 0.6 trippy
 #define NL_UNDERWATER_TINT vec3(0.9,1.0,0.9)
 
 /* Cloud type */
